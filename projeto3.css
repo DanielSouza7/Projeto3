@@ -1,0 +1,63 @@
+/* NavBar */
+.navbar {
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+}
+/* Texto "Meu Painel" do NavBar */
+.navbar-brand {
+    padding: 10px;
+    margin-left: 15px;   
+}
+/* Caixa de busca do NavBar */
+.form-control {
+    width: 300px;
+}
+
+
+/* SideBar */
+.sidebar {
+    padding-top: 15px;
+    border-right: 1px rgba(0, 0, 0, 0.2) solid;
+}
+/* Texto e Icones da SideBar */
+.sidebar .nav-link,
+.sidebar .nav-link .feather
+{
+    font-weight: 750;
+    margin-right: 5px;
+    color: black;
+}
+/* Texto e icone do item ativo da SideBar */
+.sidebar .nav-link.active,
+.sidebar .nav-link.active .feather {
+    color: #007bff;
+}
+/* Efeito hover no Texto e icone na SideBar */
+.sidebar .nav-link:hover,
+.sidebar .nav-link:hover .feather
+{
+    color: red;
+}
+
+/* Ajustando o BreadCrumb */
+.breadcrumb {
+    border-radius: 5px;
+    background-color: rgba(200, 200, 200, 0.2);
+    margin-top: 20px;
+    padding: 10px 16px;
+}
+
+/* Tabela */
+th {
+    border-bottom: 1px black solid;
+}
+/* Botão do fim Tabela */
+.btn-secondary {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    color: black;
+}
+
+/* Efeitos Hover */
+.hover-effect:hover {
+    border: 1px black solid;
+}
